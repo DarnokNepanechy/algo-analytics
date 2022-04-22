@@ -17,13 +17,12 @@ public abstract class AppConfiguration {
     public static final String SCHEDULE_LINK = "https://lms.algoritmika.org/group/default/schedule?export=true&name=default&exportType=csv";
     public static final String INVOICES_LINK = "https://lms.algoritmika.org/payment/manage/invoices?export=true&name=default&exportType=csv";
     // Логин и пароль от БО Алгоритмики
-    public static final String ALGO_LOGIN = "Bot_KRD";
-    public static final String ALGO_PASSWORD = "HAHd;5qk";
+    public static final String ALGO_LOGIN = "";
+    public static final String ALGO_PASSWORD = "";
 
     // jdbc:postgresql://host:port/database
-//    public static final String DB_PATH = "jdbc:postgresql://194.163.184.47:5432/algo_krd";
-    public static final String DB_PATH = "jdbc:postgresql://localhost:5432/algo_krd";
+    public static final String DB_PATH = "jdbc:postgresql://host:port/database";
     // Пользователь и его пароль от БД
-    public static final String PSQL_USER = "postgres";
-    public static final String PSQL_PASSWORD = "jSONmain";
+    public static final String PSQL_USER = "";
+    public static final String PSQL_PASSWORD = "";
 }
